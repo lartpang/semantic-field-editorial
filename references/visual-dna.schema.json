@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Semantic Field Visual DNA",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "style",
+    "background",
+    "ink",
+    "primary_accent",
+    "anchor_family",
+    "trace_family",
+    "echo_family",
+    "void_behavior",
+    "texture",
+    "density",
+    "semantic_distance",
+    "recurring_motif"
+  ],
+  "properties": {
+    "style": {
+      "const": "semantic-field"
+    },
+    "background": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "ink": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "primary_accent": {
+      "type": "string",
+      "pattern": "^#[0-9A-Fa-f]{6}$"
+    },
+    "secondary_accent": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^#[0-9A-Fa-f]{6}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "anchor_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "trace_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "echo_family": {
+      "type": "string",
+      "minLength": 1
+    },
+    "void_behavior": {
+      "type": "string",
+      "minLength": 1
+    },
+    "texture": {
+      "type": "string",
+      "minLength": 1
+    },
+    "density": {
+      "enum": [
+        "very-low",
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "semantic_distance": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "job_semantic_distance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "header": { "type": "number", "minimum": 1, "maximum": 5 },
+        "chapter_summary": { "type": "number", "minimum": 1, "maximum": 5 },
+        "explanatory": { "type": "number", "minimum": 1, "maximum": 5 },
+        "atmosphere": { "type": "number", "minimum": 1, "maximum": 5 }
+      }
+    },
+    "recurring_motif": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "style": "semantic-field",
+  "background": "#F3EFE7",
+  "ink": "#1E1E1B",
+  "primary_accent": "#5F7686",
+  "secondary_accent": null,
+  "anchor_family": "open cut rings, offset slabs, and progressively reduced stepped fields",
+  "trace_family": "single charcoal return arcs and measured course-correction paths",
+  "echo_family": "sparse short bars and small nodes that change density along the trace",
+  "void_behavior": "large off-center apertures and interrupted paths that hold uncertainty or missing knowledge",
+  "texture": "very light dry-screenprint speckle confined to the mineral-blue anchor only; quiet flat background",
+  "density": "low",
+  "semantic_distance": 3,
+  "job_semantic_distance": {
+    "header": 3,
+    "chapter_summary": 2.5,
+    "explanatory": 2,
+    "atmosphere": 4
+  },
+  "recurring_motif": "two short registration ticks beside the decisive turn in each composition",
+  "notes": "The series translates learning as recursive observation, course correction, and support that gradually fades into independent action. Keep 55-75% quiet space and no embedded text."
+}

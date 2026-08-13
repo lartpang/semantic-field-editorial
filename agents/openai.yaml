@@ -1,0 +1,4 @@
+interface:
+  display_name: "Semantic Field Editorial"
+  short_description: "Create distinctive editorial art from long-form writing."
+  default_prompt: "Use $semantic-field-editorial to turn this article into an original, coherent editorial illustration series rather than a literal visualization."

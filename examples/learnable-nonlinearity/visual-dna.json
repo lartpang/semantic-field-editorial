@@ -1,0 +1,22 @@
+{
+  "style": "semantic-field",
+  "background": "#F3EFE7",
+  "ink": "#1E1E1B",
+  "primary_accent": "#8879A8",
+  "secondary_accent": null,
+  "anchor_family": "slotted fields, offset slabs, and long function ribbons whose geometry changes across a threshold",
+  "trace_family": "uniform straight ink traces that become distinct controlled curves and later regroup into parallel bands",
+  "echo_family": "sparse paired nodes and short calibration strokes repeated near functional transitions",
+  "void_behavior": "narrow hinge-like apertures separate fixed linear structure from learned nonlinear shape or mark an engineering tradeoff",
+  "texture": "subtle dry-screenprint grain restricted to violet anchors and ribbons; flat quiet background",
+  "density": "low",
+  "semantic_distance": 3,
+  "job_semantic_distance": {
+    "header": 3,
+    "chapter_summary": 2.5,
+    "explanatory": 2,
+    "atmosphere": 4
+  },
+  "recurring_motif": "two small offset nodes straddling the point where a straight trace begins to bend",
+  "notes": "Translate the article as fixed homogeneous linear transport becoming learnable nonlinear function shape, then being constrained by grouping, stability, and parallel computation. Keep 55-75% quiet space and no embedded text."
+}

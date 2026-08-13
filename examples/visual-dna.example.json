@@ -1,0 +1,22 @@
+{
+  "style": "semantic-field",
+  "background": "#F3EFE7",
+  "ink": "#1E1E1B",
+  "primary_accent": "#D56845",
+  "secondary_accent": null,
+  "anchor_family": "cut-disc",
+  "trace_family": "long-arc",
+  "echo_family": "irregular-dot-matrix",
+  "void_behavior": "circular-aperture",
+  "texture": "sparse-dry-speckle",
+  "density": "low",
+  "semantic_distance": 3,
+  "job_semantic_distance": {
+    "header": 3,
+    "chapter_summary": 2.5,
+    "explanatory": 1.5,
+    "atmosphere": 4
+  },
+  "recurring_motif": "offset-index-marks",
+  "notes": "Example only. Derive actual values from the source document."
+}
