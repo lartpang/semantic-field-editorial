@@ -1,6 +1,14 @@
 # Semantic Field Editorial
 
-`semantic-field-editorial` 将文章、章节、随笔、博客、公众号长文或报告转化为一套具有统一视觉语言的原创编辑插图。它关注文章内部的关系、运动、张力与转折，而不是把段落逐句画成流程图、名词拼贴或素材图。
+## 项目简介 / About
+
+### 中文
+
+`semantic-field-editorial` 是一个面向长文本的原创编辑插图 Skill。它通读文章、章节、随笔、博客、公众号长文或报告，从中提炼核心命题、关系、运动、张力与转折，并将这些语义结构转化为题图和系列插图。项目以统一的 Visual DNA 维持多图之间的构图、色彩、材质和抽象程度，同时允许用户调整尺寸、数量、风格与解释强度。它追求能够独立成立的编辑视觉作品，而不是将原文逐句改写成流程图、概念图、名词拼贴或装饰性素材。
+
+### English
+
+`semantic-field-editorial` is a skill for creating original editorial artwork from long-form writing. It reads an article, chapter, essay, blog post, newsletter, or report as a whole, distills its central proposition, relationships, motion, tension, and turning points, and translates those semantic structures into a hero image and a coherent illustration series. A shared Visual DNA keeps composition, color, texture, and abstraction consistent across the set, while users can adjust dimensions, image count, style, and explanatory depth. The goal is to create editorial images that stand on their own—not sentence-by-sentence flowcharts, concept maps, noun collages, or generic decoration.
 
 > 本 README 面向使用者，解释技能的默认行为、可调参数、协作方式与真实案例。技能运行时仍以 [`SKILL.md`](SKILL.md) 和 `references/` 中的规范为准；README 不会被自动加载，不增加日常调用的上下文开销。
 
@@ -18,7 +26,6 @@
 - [交付与文件组织](#交付与文件组织)
 - [边界与注意事项](#边界与注意事项)
 - [实际使用案例](#实际使用案例)
-- [致谢](#致谢)
 
 ## 快速开始
 
